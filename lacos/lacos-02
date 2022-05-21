@@ -1,0 +1,13 @@
+//Dividir dois números sem usar o operador da divisão
+//utilizando do while
+
+var num = 100
+var divisor = 20
+var contador = 0
+
+do {
+    num = num - divisor
+    contador++
+} while (num >= divisor)
+
+console.log(contador)
