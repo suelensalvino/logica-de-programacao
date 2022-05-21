@@ -1,0 +1,10 @@
+//Multiplicar dois números sem usar o operador da multiplicação
+//utilizando for
+
+var num = 8
+var multi = 5
+var resultado = 0
+
+for(var i = 0; i < multi; i++){
+    resultado = resultado + num
+} console.log(resultado)
