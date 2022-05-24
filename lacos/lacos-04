@@ -1,0 +1,10 @@
+//Computar o fatorial de um número
+//utilizando for
+
+var fatorial = 5
+var resultado = 1
+
+for(i = fatorial; i > 0; i--){
+    resultado = i * resultado
+    console.log(resultado)
+}
