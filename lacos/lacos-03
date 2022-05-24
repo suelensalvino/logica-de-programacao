@@ -1,0 +1,11 @@
+//Computar o resto da divisão de dois números sem utilizar o operador %;
+//utilizando do while
+
+var a = 5
+var b = 2
+
+do{
+    a = a - b
+} while(a >= b)
+
+console.log(a)
