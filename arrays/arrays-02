@@ -1,0 +1,23 @@
+/*Implementar um subprograma que dado um array bidimensional retorna 
+true se a soma dos seus elementos for positiva ou false, caso contrário;*/
+
+function somaPositiva(){
+    for(i = 0; i < array.length; i++){
+        for(j = 0; j < array[i].length; j++){
+            if((array[i][j] + array[i][j]) > 0){
+                return true
+            } else{
+                return false
+            }
+        }
+    }
+}
+
+var array = 
+[
+    [1,5,3],
+    [2,7,-1],
+    [6,2,8]
+]
+
+console.log(somaPositiva())
